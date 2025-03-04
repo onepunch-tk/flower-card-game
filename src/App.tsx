@@ -10,7 +10,7 @@ function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, type: "spring", bounce: 0.4 }}
       >
-        🌸 행복의 꽃다발 짝 맞추기 🌸
+        🌸 봄날의 행복 찾기 🌸
       </motion.h1>
       <CardGame />
     </div>

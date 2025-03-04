@@ -78,10 +78,10 @@ const Card = ({
                 backdropFilter: "blur(2px)",
               }}
             >
-              <h3 className="text-[10px] sm:text-xs md:text-sm font-bold text-blue-800 mb-0.5 sm:mb-1">
+              <h3 className="text-[10px] sm:text-sm md:text-2xl font-bold text-blue-800 mb-0.5 sm:mb-1">
                 {flowerName}
               </h3>
-              <p className="text-[8px] sm:text-[10px] md:text-xs text-blue-600 leading-tight">
+              <p className="text-[8px] sm:text-[10px] md:text-lg text-blue-600 leading-tight">
                 {flowerMeaning}
               </p>
             </motion.div>
