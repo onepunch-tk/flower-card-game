@@ -189,7 +189,7 @@ const CardGame = () => {
     setIsPreviewing(true);
     // 카드를 순차적으로 뒤집기
     const previewCards = [...cards];
-    previewCards.forEach((card, index) => {
+    previewCards.forEach((_, index) => {
       setTimeout(() => {
         setCards((prev) =>
           prev.map((c, i) => (i === index ? { ...c, isFlipped: true } : c))
@@ -202,7 +202,7 @@ const CardGame = () => {
   const handleClosePreview = () => {
     // 카드를 순차적으로 닫기
     const closeCards = [...cards];
-    closeCards.forEach((card, index) => {
+    closeCards.forEach((_, index) => {
       setTimeout(() => {
         setCards((prev) =>
           prev.map((c, i) =>
