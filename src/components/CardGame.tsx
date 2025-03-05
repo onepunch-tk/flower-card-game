@@ -29,7 +29,7 @@ const flowerInfos: FlowerInfo[] = [
   {
     imageUrl: flower2,
     name: "프리지아",
-    meaning: "청함, 당신의 앞날",
+    meaning: "청순함, 당신의 앞날",
   },
   {
     imageUrl: flower3,
