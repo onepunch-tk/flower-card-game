@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 import Card from "./Card";
 
 // 꽃 이미지 import
-import flower1 from "../assets/flower1.jpeg";
-import flower2 from "../assets/flower2.jpeg";
-import flower3 from "../assets/flower3.jpeg";
-import flower4 from "../assets/flower4.jpeg";
-import flower5 from "../assets/flower5.jpeg";
-import flower6 from "../assets/flower6.jpeg";
-import flower7 from "../assets/flower7.jpeg";
-import flower8 from "../assets/flower8.jpeg";
+import flower1 from "../assets/flower1.jpg";
+import flower2 from "../assets/flower2.jpg";
+import flower3 from "../assets/flower3.jpg";
+import flower4 from "../assets/flower4.jpg";
+import flower5 from "../assets/flower5.jpg";
+import flower6 from "../assets/flower6.jpg";
+import flower7 from "../assets/flower7.jpg";
+import flower8 from "../assets/flower8.jpg";
 
 // 꽃 정보 인터페이스
 interface FlowerInfo {
@@ -23,43 +23,43 @@ interface FlowerInfo {
 const flowerInfos: FlowerInfo[] = [
   {
     imageUrl: flower1,
-    name: "장미",
-    meaning: "사랑, 열정, 아름다움",
+    name: "벚꽃",
+    meaning: "아름다움, 번영",
   },
   {
     imageUrl: flower2,
-    name: "해바라기",
-    meaning: "숭배, 충성, 행복",
+    name: "프리지아",
+    meaning: "청함, 당신의 앞날",
   },
   {
     imageUrl: flower3,
-    name: "튤립",
-    meaning: "완벽한 사랑, 명성, 행복",
+    name: "라일락",
+    meaning: "첫사랑, 젊은날의 추억",
   },
   {
     imageUrl: flower4,
-    name: "라일락",
-    meaning: "첫사랑, 순수, 젊은 날의 감정",
+    name: "카네이션",
+    meaning: "사랑, 존경",
   },
   {
     imageUrl: flower5,
-    name: "수국",
-    meaning: "진심, 감사, 풍요로움",
+    name: "메리골드",
+    meaning: "반드시 오고야 말 행복",
   },
   {
     imageUrl: flower6,
-    name: "데이지",
-    meaning: "순수, 순진함, 충실한 사랑",
+    name: "수선화",
+    meaning: "자기사랑, 자존심",
   },
   {
     imageUrl: flower7,
-    name: "백합",
-    meaning: "순결, 위엄, 순수",
+    name: "개망초",
+    meaning: "화해",
   },
   {
     imageUrl: flower8,
-    name: "벚꽃",
-    meaning: "순수한 마음, 아름다운 정신, 삶의 덧없음",
+    name: "샤프란",
+    meaning: "후회 없는 청춘",
   },
 ];
 
